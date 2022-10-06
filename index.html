@@ -1,0 +1,664 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.13  (Win32)">
+	<META NAME="CREATED" CONTENT="20220929;23385588">
+	<META NAME="CHANGED" CONTENT="20220930;21062423">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { size: 8.5in 11in; margin: 0.79in }
+		P { margin-bottom: 0.08in }
+		P.western { so-language: en-US }
+		H1 { margin-bottom: 0.08in }
+		H1.western { font-family: "Times New Roman", serif; so-language: en-US }
+		H1.cjk { font-family: "SimSun" }
+		H1.ctl { font-family: "Arial" }
+		H2 { margin-bottom: 0.08in }
+		H2.western { so-language: en-US }
+		H2.cjk { font-family: "SimSun" }
+		H2.ctl { font-family: "Arial" }
+		H3 { margin-bottom: 0.08in }
+		H3.western { so-language: en-US }
+		H3.cjk { font-family: "SimSun" }
+		H3.ctl { font-family: "Arial" }
+		H4 { margin-bottom: 0.08in }
+		H4.western { so-language: en-US }
+		H4.cjk { font-family: "SimSun" }
+		H4.ctl { font-family: "Arial" }
+		PRE.western { so-language: en-US }
+		PRE.cjk { font-family: "NSimSun", monospace }
+		A:link { so-language: zxx }
+		CODE.cjk { font-family: "NSimSun", monospace }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<H1 CLASS="western" STYLE="font-style: normal; font-weight: normal"><A NAME="ctl00_ArticleTitle"></A>
+<FONT COLOR="#333333"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=6 STYLE="font-size: 28pt">A
+USB Library to Detect USB Devices</FONT></FONT></FONT></H1>
+<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2"><A NAME="ctl00_Authors"></A>
+<A HREF="https://www.codeproject.com/script/Membership/View.aspx?mid=1882909"><FONT COLOR="#808080"><SPAN STYLE="text-decoration: none"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">slelong</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+<DIV ID="ctl00_RateArticle_RatingTable" DIR="LTR">
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2">
+	<BR>
+	</P>
+	<DIV ID="ctl00_RateArticle_RatingRow" DIR="LTR">
+		<P CLASS="western" STYLE="margin-left: 0.07in; margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2">
+		<BR>
+		</P>
+		<DIV ID="ctl00_RateArticle_Prompt" DIR="LTR">
+			<P CLASS="western" STYLE="margin-left: 0.07in; margin-right: 0.02in; margin-bottom: 0in; border: none; padding: 0in; line-height: 0.26in; widows: 2; orphans: 2">
+			<FONT COLOR="#808080"><B>Rate me:</B></FONT></P>
+		</DIV>
+		<DIV ID="ctl00_RateArticle_RatingHistWrap" DIR="LTR">
+			<P CLASS="western" STYLE="margin-left: 0.07in; margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2">
+			<BR>
+			</P>
+			<DIV ID="ctl00_RateArticle_ResultWithHist" DIR="LTR">
+				<P CLASS="western" STYLE="margin-left: 0.07in; margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2">
+				<IMG SRC="https://www.codeproject.com/script/Ratings/Images/star-fill-lg.png" NAME="graphics1" ALIGN=BOTTOM WIDTH=24 HEIGHT=24 BORDER=0></P>
+				<P CLASS="western" STYLE="margin-left: 0.07in; margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2; text-decoration: none">
+				<FONT COLOR="#111111"><IMG SRC="https://www.codeproject.com/script/Ratings/Images/star-fill-lg.png" NAME="graphics2" ALIGN=BOTTOM WIDTH=24 HEIGHT=24 BORDER=0></FONT></P>
+				<P CLASS="western" STYLE="margin-left: 0.07in; margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2; text-decoration: none">
+				<FONT COLOR="#111111"><IMG SRC="https://www.codeproject.com/script/Ratings/Images/star-fill-lg.png" NAME="graphics3" ALIGN=BOTTOM WIDTH=24 HEIGHT=24 BORDER=0></FONT></P>
+				<P CLASS="western" STYLE="margin-left: 0.07in; margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2; text-decoration: none">
+				<FONT COLOR="#111111"><IMG SRC="https://www.codeproject.com/script/Ratings/Images/star-fill-lg.png" NAME="graphics4" ALIGN=BOTTOM WIDTH=24 HEIGHT=24 BORDER=0></FONT></P>
+				<P CLASS="western" STYLE="margin-left: 0.07in; margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2; text-decoration: none">
+				<FONT COLOR="#111111"><IMG SRC="https://www.codeproject.com/script/Ratings/Images/star-fill-lg.png" NAME="graphics5" ALIGN=BOTTOM WIDTH=24 HEIGHT=24 BORDER=0></FONT></P>
+				<P CLASS="western" STYLE="margin-left: 0.07in; margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2; text-decoration: none">
+				<FONT COLOR="#111111"><IMG SRC="https://www.codeproject.com/script/Ratings/Images/star-empty-lg.png" NAME="graphics6" ALIGN=BOTTOM WIDTH=24 HEIGHT=24 BORDER=0></FONT></P>
+			</DIV>
+		</DIV>
+		<DIV ID="ctl00_RateArticle_VoteCountNoHist" DIR="LTR">
+			<P CLASS="western" STYLE="margin-left: 0.13in; margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 0.26in; widows: 2; orphans: 2; text-decoration: none">
+			<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 10pt">4.89/5
+			(120 votes)</FONT></FONT></FONT></P>
+		</DIV>
+	</DIV>
+</DIV>
+<P CLASS="western" STYLE="margin-left: 0.31in; margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2"><A NAME="ctl00_LastUpdated"></A><A NAME="ctl00_LicenseLink"></A><A NAME="ctl00_ReadingTime"></A>
+<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">21
+Sep 2014</SPAN></SPAN></FONT></FONT></FONT><A HREF="http://www.codeproject.com/info/cpol10.aspx"><FONT COLOR="#005782"><SPAN STYLE="text-decoration: none"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">CPOL</SPAN></SPAN></FONT></FONT></SPAN></FONT></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">3
+min read</SPAN></SPAN></FONT></FONT></FONT></P>
+<DIV ID="ctl00_DescriptionSpot" DIR="LTR">
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2">
+	<FONT COLOR="#808080">A USB library to detect USB devices, and
+	manage Attach and Detach events</FONT></P>
+</DIV>
+<DIV ID="contentdiv" DIR="LTR">
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111">&nbsp;</FONT></P>
+	<UL>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; background: transparent; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<A HREF="https://www.codeproject.com/KB/cs/AUSBClassLibrary/USBClassLibrary_demo_1.0.3.0_WPF1.0.1.0.zip"><FONT COLOR="#005782"><SPAN STYLE="text-decoration: none"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><B>Download
+		demo - 245.7 KB</B></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; background: transparent; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<A HREF="https://www.codeproject.com/KB/cs/AUSBClassLibrary/USBClassLibrary_src_1.0.5.0.zip"><FONT COLOR="#005782"><SPAN STYLE="text-decoration: none"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><B>Download
+		source - 20.7 KB</B></SPAN></FONT></FONT></SPAN></FONT></A></P>
+	</UL>
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111">&nbsp;</FONT></P>
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><IMG SRC="https://www.codeproject.com/KB/system/AUSBClassLibrary/USBClassLibrary1.0.0.3.gif" NAME="graphics7" ALIGN=BOTTOM WIDTH=75 HEIGHT=38 BORDER=0></FONT></P>
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><IMG SRC="https://www.codeproject.com/KB/system/AUSBClassLibrary/USBClassLibraryWPF1.0.1.0.gif" NAME="graphics8" ALIGN=BOTTOM WIDTH=75 HEIGHT=38 BORDER=0></FONT></P>
+	<H2 CLASS="western" STYLE="margin-top: 0.21in; margin-bottom: 0.11in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#ff9900"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=6 STYLE="font-size: 21pt">Introduction&nbsp;</FONT></FONT></FONT></H2>
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">This
+	article is about a USB library which enables you to manage Attach
+	and Detach events of USB devices and detect your own device. I was
+	not able to find a working code written in C# and which runs under
+	both Windows XP and Windows 7 x64. I therefore decided to write my
+	own code. I read various articles about USB Attach and Detach
+	detection, and got some help from both the Microsoft website and the
+	PINVOKE.NET website (</SPAN></SPAN></FONT></FONT></FONT><A HREF="http://www.pinvoke.net/"><FONT COLOR="#005782"><SPAN STYLE="text-decoration: none"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">http://www.pinvoke.net</SPAN></SPAN></FONT></FONT></SPAN></FONT></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">).</SPAN></SPAN></FONT></FONT></FONT></P>
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>This
+	code is a separate module that you can link to your own project. The
+	code explains how to add additional properties.</FONT></FONT></FONT></P>
+	<H2 CLASS="western" STYLE="margin-top: 0.21in; margin-bottom: 0.11in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#ff9900"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=6 STYLE="font-size: 21pt">Using
+	the Code</FONT></FONT></FONT></H2>
+	<H3 CLASS="western" STYLE="margin-top: 0in; margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#ff9900"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=4 STYLE="font-size: 14pt">Updating
+	your Code</FONT></FONT></FONT></H3>
+	<H4 CLASS="western" STYLE="margin-top: 0in; margin-bottom: 0in; border: none; padding: 0in; font-style: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3 STYLE="font-size: 12pt"><B>Windows
+	Forms&nbsp;</B></FONT></FONT></FONT></H4>
+	<UL>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Add
+		a reference to your project.</FONT></FONT></FONT></P>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Add
+		the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">using</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;directive
+		in your code:</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain795984" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode795984"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre795984"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">using</FONT> USBClassLibrary;</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Declare
+		an instance of&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain61676" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode61676"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre61676"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">private</FONT> USBClassLibrary.USBClass USBPort;</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Declare
+		an instance List&lt;T&gt; of&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">DeviceProperties</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;if
+		you want to read the properties of your devices.</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain305698" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode305698"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre305698"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">private</FONT> List&lt;USBClassLibrary.USBClass.DeviceProperties&gt; ListOfUSBDeviceProperties;</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Create
+		an instance of the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;class.</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain429425" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode429425"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre429425"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>USBPort = <FONT COLOR="#0000ff">new</FONT> USBClass();</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Create
+		an instance List&lt;T&gt; of&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">DeviceProperties</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;class.</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain69857" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode69857"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre69857"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>ListOfUSBDeviceProperties = <FONT COLOR="#0000ff">new</FONT> List&lt;USBClassLibrary.USBClass.DeviceProperties&gt;();</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Add
+		handlers for the events exposed by the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;class.</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain130479" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode130479"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre130479"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>USBPort.USBDeviceAttached += <FONT COLOR="#0000ff">new</FONT> USBClass.USBDeviceEventHandler(USBPort_USBDeviceAttached);</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">USBPort.USBDeviceRemoved += <FONT COLOR="#0000ff">new</FONT> USBClass.USBDeviceEventHandler(USBPort_USBDeviceRemoved);</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Register
+		your form to receive Windows messages when devices are added or
+		removed.</FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain8464" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode8464"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre8464"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>USBPort.RegisterForDeviceChange(<FONT COLOR="#0000ff">true</FONT>, <FONT COLOR="#0000ff">this</FONT>.Handle);</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Then,
+		check if your device is not already connected:</FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain701636" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode701636"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre701636"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">if</FONT> (USBClass.GetUSBDevice(MyDeviceVID, MyDevicePID, </FONT></FONT></FONT>
+<FONT COLOR="#000000">             <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> ListOfUSBDeviceProperties, </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">false</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">))</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#008000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><I><SPAN STYLE="font-weight: normal">//My Device is connected</SPAN></I></FONT></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">MyUSBDeviceConnected = </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">true</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Implement
+		Attach and Detach handlers:</FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain937727" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode937727"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre937727"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">private</FONT> <FONT COLOR="#0000ff">void</FONT> USBPort_USBDeviceAttached(<FONT COLOR="#0000ff">object</FONT> sender, </FONT></FONT></FONT>
+<FONT COLOR="#000000">             <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass.USBDeviceEventArgs e)</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">if</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> (!MyUSBDeviceConnected)</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">{</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">if</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> (USBClass.GetUSBDevice(MyDeviceVID, MyDevicePID, </SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">                                <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> ListOfUSBDeviceProperties, </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">false</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">))</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">{</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">         <FONT COLOR="#008000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><I><SPAN STYLE="font-weight: normal">//My Device is connected</SPAN></I></FONT></FONT></FONT></FONT>
+<FONT COLOR="#000000">         <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">MyUSBDeviceConnected = </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">true</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">}</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">}</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><FONT COLOR="#0000ff">private</FONT> <FONT COLOR="#0000ff">void</FONT> USBPort_USBDeviceRemoved(<FONT COLOR="#0000ff">object</FONT> sender, </FONT></FONT></FONT>
+<FONT COLOR="#000000">             <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass.USBDeviceEventArgs e)</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">if</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> (!USBClass.GetUSBDevice(MyDeviceVID, MyDevicePID, </SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">                              <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> ListOfUSBDeviceProperties, </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">false</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">))</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">{</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT COLOR="#008000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><I><SPAN STYLE="font-weight: normal">//My Device is removed</SPAN></I></FONT></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">MyUSBDeviceConnected = </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">false</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">}</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Handle
+		Windows message in your form to pass them to the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;class:</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain66238" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode66238"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre66238"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">protected</FONT> <FONT COLOR="#0000ff">override</FONT> <FONT COLOR="#0000ff">void</FONT> WndProc(<FONT COLOR="#0000ff">ref</FONT> Message m)</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">bool</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> IsHandled = </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">false</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBPort.ProcessWindowsMessage(m.Msg, m.WParam, m.LParam, </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> IsHandled);</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">base</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.WndProc(</SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> m);</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}</FONT></FONT></FONT></PRE>
+	</UL>
+	<H4 CLASS="western" STYLE="margin-top: 0in; margin-bottom: 0in; border: none; padding: 0in; font-style: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3 STYLE="font-size: 12pt"><B>WPF&nbsp;</B></FONT></FONT></FONT></H4>
+	<UL>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Add
+		a reference to your project.</FONT></FONT></FONT></P>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Add
+		the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">using</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;directive
+		in your code:</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain774135" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode774135"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre774135"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">using</FONT> USBClassLibrary;</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Declare
+		an instance of&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain89869" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode89869"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre89869"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">private</FONT> USBClassLibrary.USBClass USBPort;</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Declare
+		an instance List&lt;T&gt; of the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">DeviceProperties</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;class
+		if you want to read the properties of your devices.</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain957195" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode957195"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre957195"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">private</FONT> List&lt;USBClassLibrary.USBClass.DeviceProperties&gt; ListOfUSBDeviceProperties;</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Create
+		an instance of the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;class.</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain701963" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode701963"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre701963"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>USBPort = <FONT COLOR="#0000ff">new</FONT> USBClass();</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Create
+		an instance List&lt;T&gt; of the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">DeviceProperties</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;class.</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain802841" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode802841"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre802841"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>ListOfUSBDeviceProperties = <FONT COLOR="#0000ff">new</FONT> List&lt;USBClassLibrary.USBClass.DeviceProperties&gt;();&nbsp;</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Add
+		handlers for the events exposed by the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;class.</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain604116" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode604116"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre604116"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>USBPort.USBDeviceAttached += <FONT COLOR="#0000ff">new</FONT> USBClass.USBDeviceEventHandler(USBPort_USBDeviceAttached);</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">USBPort.USBDeviceRemoved += <FONT COLOR="#0000ff">new</FONT> USBClass.USBDeviceEventHandler(USBPort_USBDeviceRemoved);</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Override
+		OnSourceInitialized&nbsp;in order to:</FONT></FONT></FONT></P>
+		<UL>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+			<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Retrieve
+			the Windows Handle</FONT></FONT></FONT></P>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 0.18in; widows: 2; orphans: 2">
+			<FONT COLOR="#2a2a2a"><FONT FACE="Segoe UI, Lucida Grande, Verdana, Arial, Helvetica, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Add
+			an event handler that receives all window messages</FONT></FONT></FONT></P>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+			<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Register
+			your form to receive Windows messages when devices are added or
+			removed&nbsp;</FONT></FONT></FONT></P>
+		</UL>
+	</UL>
+	<DIV ID="premain882729" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2"><A NAME="copycode882729"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<LI><PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre882729"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">protected</FONT> <FONT COLOR="#0000ff">override</FONT> <FONT COLOR="#0000ff">void</FONT> OnSourceInitialized(EventArgs e)</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">base</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.OnSourceInitialized(e);</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">HwndSource source = PresentationSource.FromVisual(</SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">this</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">) </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">as</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> HwndSource;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">source.AddHook(WndProc);</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#008000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><I><SPAN STYLE="font-weight: normal">//USB Connection</SPAN></I></FONT></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBPort.RegisterForDeviceChange(</SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">true</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">, source.Handle);</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBTryMyDeviceConnection();</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">MyUSBDeviceConnected = </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">false</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}&nbsp;</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Handle
+		Windows message in your form to pass them to the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;class</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain590924" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode590924"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre590924"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">private</FONT> <FONT COLOR="#339999">IntPtr</FONT> WndProc(<FONT COLOR="#339999">IntPtr</FONT> hwnd, <FONT COLOR="#0000ff">int</FONT> msg, <FONT COLOR="#339999">IntPtr</FONT> wParam, <FONT COLOR="#339999">IntPtr</FONT> lParam, <FONT COLOR="#0000ff">ref</FONT> <FONT COLOR="#0000ff">bool</FONT> handled)</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBPort.ProcessWindowsMessage(msg, wParam, lParam, </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> handled);</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">            </FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">return</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> </SPAN></SPAN></FONT></FONT><FONT COLOR="#339999"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">IntPtr</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.Zero;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Then,
+		check if your device is not already connected:</FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain213032" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2"><A NAME="copycode213032"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<LI><PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre213032"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">if</FONT> (USBClass.GetUSBDevice(MyDeviceVID, MyDevicePID, </FONT></FONT></FONT>
+<FONT COLOR="#000000">             <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> ListOfUSBDeviceProperties, </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">false</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">))</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#008000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><I><SPAN STYLE="font-weight: normal">//My Device is connected</SPAN></I></FONT></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">MyUSBDeviceConnected = </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">true</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Implement
+		Attach and Detach handlers:</FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain240896" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode240896"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre240896"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">private</FONT> <FONT COLOR="#0000ff">void</FONT> USBPort_USBDeviceAttached(<FONT COLOR="#0000ff">object</FONT> sender, </FONT></FONT></FONT>
+<FONT COLOR="#000000">             <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass.USBDeviceEventArgs e)</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">if</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> (!MyUSBDeviceConnected)</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">{</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">if</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> (USBClass.GetUSBDevice(MyDeviceVID, MyDevicePID, </SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">                                <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> ListOfUSBDeviceProperties, </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">false</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">))</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">{</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">         <FONT COLOR="#008000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><I><SPAN STYLE="font-weight: normal">//My Device is connected</SPAN></I></FONT></FONT></FONT></FONT>
+<FONT COLOR="#000000">         <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">MyUSBDeviceConnected = </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">true</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">}</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">}</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><FONT COLOR="#0000ff">private</FONT> <FONT COLOR="#0000ff">void</FONT> USBPort_USBDeviceRemoved(<FONT COLOR="#0000ff">object</FONT> sender, </FONT></FONT></FONT>
+<FONT COLOR="#000000">             <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">USBClass.USBDeviceEventArgs e)</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">if</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> (!USBClass.GetUSBDevice(MyDeviceVID, MyDevicePID, </SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">                              <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> ListOfUSBDeviceProperties, </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">false</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">))</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">{</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT COLOR="#008000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><I><SPAN STYLE="font-weight: normal">//My Device is removed</SPAN></I></FONT></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">MyUSBDeviceConnected = </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">false</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">}</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}&nbsp;</FONT></FONT></FONT></PRE>
+	</UL>
+	<H3 CLASS="western" STYLE="margin-top: 0in; margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#ff9900"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=4 STYLE="font-size: 14pt">Getting
+	the COM Port Associated to a USB Device</FONT></FONT></FONT></H3>
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>If
+	your device emulates a Serial Port, then you can retrieve its COM
+	Port.</FONT></FONT></FONT></P>
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">The&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">GetUSBDevice</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;function
+	has a fourth parameter&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">GetCOMPort</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">:</SPAN></SPAN></FONT></FONT></FONT></P>
+	<DIV ID="premain181716" DIR="LTR" STYLE="background: #fbedbb">
+		<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2"><A NAME="copycode181716"></A>
+		<FONT COLOR="#999999">C#</FONT></P>
+	</DIV>
+	<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; widows: 2; orphans: 2"><A NAME="pre181716"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">public</FONT> <FONT COLOR="#0000ff">static</FONT> <FONT COLOR="#0000ff">bool</FONT> GetUSBDevice(<FONT COLOR="#339999">UInt32</FONT> VID, <FONT COLOR="#339999">UInt32</FONT> PID, <FONT COLOR="#0000ff">ref</FONT> List&lt;deviceproperties&gt; ListOfDP, <FONT COLOR="#0000ff">bool</FONT> GetCOMPort, Nullable&lt;uint32&gt; MI=<FONT COLOR="#0000ff">null</FONT>)</FONT></FONT></FONT></PRE><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Set
+	its value to&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">True&nbsp;</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">in
+	your connection code and retrieve the COM Port from
+	the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">DeviceProperties</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;structure:</SPAN></SPAN></FONT></FONT></FONT></P>
+	<DIV ID="premain870881" DIR="LTR" STYLE="background: #fbedbb">
+		<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2"><A NAME="copycode870881"></A>
+		<FONT COLOR="#999999">C#</FONT></P>
+	</DIV>
+	<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; widows: 2; orphans: 2"><A NAME="pre870881"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">if</FONT> (USBClass.GetUSBDevice(MyDeviceVID, MyDevicePID, </FONT></FONT></FONT>
+<FONT COLOR="#000000">             <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> ListOfUSBDeviceProperties, </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">true</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">))</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#339999"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">String</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> COMPort;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#008000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><I><SPAN STYLE="font-weight: normal">//My Device is connected</SPAN></I></FONT></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">MyUSBDeviceConnected = </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">true</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">COMPort = DP.COMPort;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}</FONT></FONT></FONT></PRE><H3 CLASS="western" STYLE="margin-top: 0in; margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#ff9900"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=4 STYLE="font-size: 14pt">Compiling</FONT></FONT></FONT></H3>
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">In
+	the project properties, Build tab,&nbsp;</SPAN></SPAN></FONT></FONT></FONT><STRONG><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">do
+	not</SPAN></SPAN></FONT></FONT></FONT></STRONG><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;select
+	Any CPU in the &quot;Platform target&quot; drop down list, pick up
+	x86 or x64.</SPAN></SPAN></FONT></FONT></FONT></P>
+	<H2 CLASS="western" STYLE="margin-top: 0.21in; margin-bottom: 0.11in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#ff9900"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=6 STYLE="font-size: 21pt">Updating
+	the Code</FONT></FONT></FONT></H2>
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>If
+	you need to read other device properties, simply update the code as
+	follows:</FONT></FONT></FONT></P>
+	<UL>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Look
+		up the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">SetupDiGetDeviceRegistryProperty</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;function
+		in MSDN and find the property you want to get.</SPAN></SPAN></FONT></FONT></FONT></P>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Add
+		a new variable to the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">DeviceProperties</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;matching
+		the characteristics of your property:</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain202317" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode202317"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre202317"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">public</FONT> <FONT COLOR="#0000ff">struct</FONT> DeviceProperties</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">public</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">string</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> FriendlyName;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">public</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">string</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> DeviceDescription;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">public</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">string</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> DeviceType;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">public</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">string</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> DeviceManufacturer;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">public</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">string</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> DeviceClass;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">public</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">string</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> DeviceLocation;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">public</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">string</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> DevicePath;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">public</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">string</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> DevicePhysicalObjectName;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">public</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">string</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> COMPort;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}</FONT></FONT></FONT></PRE>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Update
+		the&nbsp;</SPAN></SPAN></FONT></FONT></FONT><CODE CLASS="western"><FONT COLOR="#990000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=3 STYLE="font-size: 11pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">GetUSBDevice</SPAN></SPAN></FONT></FONT></FONT></CODE><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">&nbsp;function:</SPAN></SPAN></FONT></FONT></FONT></P>
+	</UL>
+	<DIV ID="premain91848" DIR="LTR" STYLE="background: #fbedbb">
+		<UL>
+			<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="copycode91848"></A>
+			<FONT COLOR="#999999">C#</FONT></P>
+		</UL>
+	</DIV>
+	<UL>
+		<PRE CLASS="western" STYLE="background: #fbedbb; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="pre91848"></A><FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><FONT COLOR="#0000ff">public</FONT> <FONT COLOR="#0000ff">static</FONT> <FONT COLOR="#0000ff">bool</FONT> GetUSBDevice(<FONT COLOR="#339999">UInt32</FONT> VID, <FONT COLOR="#339999">UInt32</FONT> PID, <FONT COLOR="#0000ff">ref</FONT> List&lt;deviceproperties&gt; ListOfDP, <FONT COLOR="#0000ff">bool</FONT> GetCOMPort, Nullable&lt;uint32&gt; MI=<FONT COLOR="#0000ff">null</FONT>)</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">{</FONT></FONT></FONT>
+<FONT COLOR="#000000">   <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">...</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">    <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">DP.DevicePhysicalObjectName = </SPAN></SPAN></FONT></FONT><FONT COLOR="#339999"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">String</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">.Empty;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">    <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">if</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> (Win32Wrapper.SetupDiGetDeviceRegistryProperty(h, </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> DevInfoData, </SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">(</SPAN></SPAN></FONT></FONT><FONT COLOR="#339999"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">UInt32</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">)Win32Wrapper.SPDRP.SPDRP_PHYSICAL_DEVICE_OBJECT_NAME, </SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> RegType, intptrBuffer, BUFFER_SIZE, </SPAN></SPAN></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ref</SPAN></SPAN></FONT></FONT></FONT><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal"> RequiredSize))</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">    <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">{</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">      <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">DP.DevicePhysicalObjectName = Marshal.PtrToStringAuto(intptrBuffer);</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">    <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">}</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000">    <FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">...</SPAN></SPAN></FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Consolas, monospace, mono"><FONT SIZE=2 STYLE="font-size: 10pt">}</FONT></FONT></FONT></PRE>
+	</UL>
+	<H2 CLASS="western" STYLE="margin-top: 0.21in; margin-bottom: 0.11in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#ff9900"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=6 STYLE="font-size: 21pt">History</FONT></FONT></FONT></H2>
+	<UL>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Feb
+		22, 2010</FONT></FONT></FONT></P>
+		<UL>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+			<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Article
+			first published</FONT></FONT></FONT></P>
+		</UL>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Feb
+		26, 2010</FONT></FONT></FONT></P>
+		<UL>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+			<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Added
+			code to retrieve the COM Port associated to USB Devices emulating
+			a serial port</FONT></FONT></FONT></P>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+			<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Updated
+			documentation accordingly</FONT></FONT></FONT></P>
+		</UL>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2"><A NAME="ArticleContent"></A>
+		<FONT COLOR="#111111">&nbsp;<FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">November
+		17, 2013</SPAN></SPAN></FONT></FONT></FONT></P>
+		<UL>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2"><A NAME="ArticleContent1"></A>
+			<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Added
+			support to detect composite devices and fixed a bug where
+			DeviceProperties strings were not intialized correctly.&nbsp;</FONT></FONT></FONT></P>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+			<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Updated
+			Demo application by adding a &quot;MI&quot; field.</FONT></FONT></FONT></P>
+		</UL>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>February
+		5, 2014</FONT></FONT></FONT></P>
+		<UL>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+			<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Added
+			support for WPF applications: the USB Class Library is modified to
+			remove any reference to Windows Forms&nbsp;specific objects.&nbsp;</FONT></FONT></FONT></P>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+			<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>The
+			code works on Windows 8 and Windows 8.1 too&nbsp;</FONT></FONT></FONT></P>
+		</UL>
+		<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+		<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>September
+		21, 2014</FONT></FONT></FONT></P>
+		<UL>
+			<LI><P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+			<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Added
+			the capability to identify more than 1 identical devices returning
+			an array of Device Properties.</FONT></FONT></FONT></P>
+		</UL>
+	</UL>
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111">&nbsp;</FONT></P>
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111">&nbsp;</FONT></P>
+</DIV>
+<H2 CLASS="western" STYLE="margin-top: 0.21in; margin-bottom: 0.11in; border: none; padding: 0in; font-style: normal; font-weight: normal; line-height: 140%; widows: 2; orphans: 2">
+<FONT COLOR="#ff9900"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=6 STYLE="font-size: 21pt">License</FONT></FONT></FONT></H2>
+<DIV ID="LicenseTerms" DIR="LTR">
+	<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; line-height: 140%; widows: 2; orphans: 2">
+	<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">This
+	article, along with any associated source code and files, is
+	licensed under&nbsp;</SPAN></SPAN></FONT></FONT></FONT><A HREF="http://www.codeproject.com/info/cpol10.aspx"><FONT COLOR="#005782"><SPAN STYLE="text-decoration: none"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">The
+	Code Project Open License (CPOL)</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+</DIV>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2"><A NAME="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberPhoto"></A>
+<FONT COLOR="#111111"><FONT COLOR="#333333"><IMG SRC="https://codeproject.freetls.fastly.net/script/Membership/Images/member_unknown.gif" NAME="graphics9" ALIGN=BOTTOM HSPACE=6 WIDTH=85 HEIGHT=114 BORDER=1></FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0.07in; border: none; padding: 0in; font-style: normal; font-weight: normal; widows: 2; orphans: 2">
+<FONT COLOR="#808080"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Written
+By</FONT></FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2"><A NAME="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberProfileLink"></A>
+<A HREF="https://www.codeproject.com/Members/slelong"><FONT COLOR="#333333"><SPAN STYLE="text-decoration: none"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=6 STYLE="font-size: 21pt"><SPAN STYLE="font-style: normal"><B>slelong</B></SPAN></FONT></FONT></SPAN></FONT></A></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; widows: 2; orphans: 2"><A NAME="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberJobTitle"></A><A NAME="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberCompany"></A>
+<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>Other&nbsp;HP</FONT></FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; widows: 2; orphans: 2"><A NAME="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberLocation"></A>
+<FONT COLOR="#111111"><IMG SRC="https://www.codeproject.com/script/Geo/Images/FR.gif" NAME="graphics10" ALT="France" ALIGN=BOTTOM WIDTH=16 HEIGHT=11 BORDER=0>&nbsp;<FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">France</SPAN></SPAN></FONT></FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border: none; padding: 0in; font-style: normal; font-weight: normal; widows: 2; orphans: 2">
+<FONT COLOR="#111111"><FONT FACE="Segoe UI, Arial, sans-serif"><FONT SIZE=3>This
+member has not yet provided a Biography. Assume it's interesting and
+varied, and probably something to do with programming.</FONT></FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+</BODY>
+</HTML>
